@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    <meta name="description" contet="online magasin om league of legends og hvordan man forbedrer sig som studerende, selvom man måske ikke har meget tid" >
+
+    <title>Academy of Legends at EAAA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+</head>
+
+<body> 
+<img class="logo" src="images/case2logo.png" alt=logo>
+<ul class="snip1555">
+  <li class="current"><a href="riotgames.html" data-hover="riot">Riot Games</a></li>
+  <li><a href="worlds.html" data-hover="worlds">Worlds</a></li>
+  <li><a href="index.html" data-hover="Home">Hjem</a></li>
+  <li><a href="portr%C3%A6tter.html" data-hover="portræt">Portrætter</a></li>
+  <li><a href="coaches.html" data-hover="coach">Coaching</a></li>
+  <li><a href="mere.html" data-hover="artikel5">Mere</a></li>
+</ul>
+
+
+<section>
+  <img class="mySlides" src="images/g2.jpeg"
+  style="width:100%">
+  <img class="mySlides" src="images/teams.jpg"
+  style="width:100%">
+  <img class="mySlides" src="images/g2leaguewallpaper.jpg"
+  style="width:100%">
+    <img class="mySlides" src="images/venue2.jpeg"
+  style="width:100%">
+  <img class="mySlides" src="images/poro.jpg"
+  style="width:100%">
+  <img class="mySlides" src="images/worlds17.jpg"
+  style="width:100%">
+  <img class="mySlides" src="images/championship.jpg"
+  style="width:100%">
+  <img class="mySlides" src="images/clash.jpg"
+  style="width:100%">
+</section>
+    
+<script>
+/*script fra w3*/
+    var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script>
+<section align="center" style="color:white">
+  <h2 style="color:red">League of EAAA</h2>
+  <p><i>We are gamers</i></p>
+  <p>Dette online magasin byder på historien om indiecompaniet, Riot Games. Samt fortællingen om det første verdensmesterskab, og hvordan spillet udviklede sig på den professionelle scene gennem årene. Der kan derudover læses om nogle af de hardcore spillere, som til dagligt stræber om at være den bedste, og hvis det ikke var nok, fortæller en dansk coach om sine oplevelser.</p>
+</section>
+</body>
+    
+</html>
 
